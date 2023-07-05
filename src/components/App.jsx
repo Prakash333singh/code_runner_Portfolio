@@ -1,14 +1,23 @@
-import Header from "./Header";
-import Hero_section from "./Hero_section";
-import Footer from "./Footer";
+// import { Route, Routes } from "react-router";
+import Home from "./Home";
+import Navbar from "./Navbar";
+import SocialLinks from "./SocialLinks";
+import About from "./About";
+import Portfolio from "./Portfolio";
+import Experience from "./Experience";
+import Contact from "./Contact";
 function App() {
 
   return (
-    <>
-      <Header />
-      <Hero_section />
-      <Footer />
-    </>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact />
+      <SocialLinks />
+    </div>
   )
 }
 
